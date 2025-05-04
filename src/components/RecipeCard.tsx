@@ -3,10 +3,10 @@ import { Clock, Users, Flame } from "lucide-react";
 
 const RecipeCard: React.FC = () => {
   return (
-    <div className="max-w-3xl w-full bg-white shadow-md rounded-lg overflow-hidden print:shadow-none print:max-w-full  ">
+    <div className="max-w-3xl w-full bg-white shadow-md rounded-lg overflow-hidden print:shadow-none  ">
       {/* Recipe Header */}
       <div className="p-4 bg-primary text-white ">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-center  gap-2">
           <h1 className="text-xl md:text-2xl font-bold">
             Lapin au vin blanc et aux champignons de Paris
           </h1>

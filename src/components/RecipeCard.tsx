@@ -180,10 +180,11 @@ const RecipeCard: React.FC = () => {
       </div>
       <div className="p-4 flex items-center justify-between border-t border-primary/20 print:mt-4">
         <div className="text-center text-secondary text-sm italic">
-          Bon appétit !
+          Retrouve la recette complète en flashant ce QR code, Bon appétit !
         </div>
         <div className="print:block hidden">
           <img src="/qr-code.png" alt="QR Code" className="h-16 w-auto" />
+
           {/* <QRCodeSVG 
             value="Scannez-moi pour retrouver la recette en ligne !" 
             size={60}

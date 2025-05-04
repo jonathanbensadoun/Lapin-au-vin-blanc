@@ -178,8 +178,8 @@ const RecipeCard: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 flex items-center justify-between border-t border-primary/20 print:mt-4">
-        <div className="text-center text-secondary text-sm italic">
+      <div className="p-4 flex items-center justify-between border-t border-primary/20 print:mt-4 ">
+        <div className="text-center text-secondary text-sm italic print:block hidden">
           Retrouve la recette complète en flashant ce QR code, Bon appétit !
         </div>
         <div className="print:block hidden">

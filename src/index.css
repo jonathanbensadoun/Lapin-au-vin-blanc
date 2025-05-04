@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media print {
+    @page {
+      margin: 0.3cm;
+      size: A4 portrait;
+    }
+    
+    body {
+      font-family: serif;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
+  }
+}
+
+/* Import font for digital display */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --font-heading: 'Comic Sans MS', cursive, sans-serif;
+  --font-body: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+body {
+  font-family: var(--font-body);
+}

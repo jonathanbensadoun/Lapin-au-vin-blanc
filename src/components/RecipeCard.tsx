@@ -118,8 +118,7 @@ const RecipeCard: React.FC = () => {
                   Épluchez les oignons grelots.
                 </li>
                 <li className="list-disc text-gray-700">
-                  Nettoyez les champignons : retirez les pieds terreux, rincez
-                  les têtes à l'eau vinaigrée, séchez-les et émincez-les.
+                  Nettoyez les champignons.
                 </li>
               </ul>
             </div>

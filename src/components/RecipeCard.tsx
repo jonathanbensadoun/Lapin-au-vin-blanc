@@ -17,9 +17,6 @@ const RecipeCard: React.FC = () => {
             Imprimer
           </button>
         </div>
-        <div className="mt-2 text-white/90">
-          <p className="text-sm">Plats · Viandes · Gibiers · Lapin</p>
-        </div>
       </div>
 
       {/* Recipe Info */}
